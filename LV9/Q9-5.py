@@ -8,3 +8,4 @@ while True:
             for j in range(2 * i, 2 * n + 1, i):
                 table[j] = False
     print(table[n + 1:].count(True))
+    
